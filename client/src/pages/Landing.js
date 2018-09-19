@@ -8,7 +8,6 @@ const Landing = () => (
     <div>
        <Hero backgroundImage="assets/images/plane_cropped.jpg">
         <h1>Globe Trotters</h1>
-        <h3>Log In</h3>
         
       </Hero>
       <Container style={{ marginTop: 30 }}> 
