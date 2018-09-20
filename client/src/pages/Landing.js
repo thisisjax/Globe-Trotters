@@ -20,7 +20,9 @@ const pStyle = {
 const Landing = () => (
     <div>
        <Hero backgroundImage="assets/images/plane_cropped.jpg">
+
         <h1 style={h1Style}>Globe Trotters</h1>
+
       </Hero>
       <Container style={{ marginTop: 50 }}> 
         <Row>
