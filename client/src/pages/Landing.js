@@ -4,21 +4,35 @@ import Container from "../components/Container";
 import Row from "../components/Row";
 import Col from "../components/Col";
 
+const pStyle = {
+    fontSize: '22px',
+    textAlign: 'justify',
+    fontFamily: 'Arimo'
+  };
+  const h1Style = {
+    fontSize: '55px',
+    textAlign: 'center',
+    letterSpacing: '2px',
+    textShadow: '1px 1px 1px black'
+  };
+
+  
 const Landing = () => (
     <div>
        <Hero backgroundImage="assets/images/plane_cropped.jpg">
-        <h1>Globe Trotters</h1>
-        
+
+        <h1 style={h1Style}>Globe Trotters</h1>
+
       </Hero>
-      <Container style={{ marginTop: 30 }}> 
+      <Container style={{ marginTop: 50 }}> 
         <Row>
           <Col size="md-12">
-            <h1>Welcome To Globe Trotters!</h1>
+            <h1 >About Us</h1>
           </Col>
         </Row>
         <Row>
           <Col size="md-12">
-            <p>
+          <p style={pStyle}>
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc aliquet diam tortor, id
               consequat mauris ullamcorper eu. Orci varius natoque penatibus et magnis dis parturient
               montes, nascetur ridiculus mus. Pellentesque et dui id justo finibus sollicitudin at et
